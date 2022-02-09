@@ -18,9 +18,9 @@ def create_art(size_x, size_y, size, spacing):
     for color in colors:
         colors_f.append(color.rgb)
 
-    start_x = size_x * -spacing / 2
-    start_y = size_y * spacing / 2
-    for i in range(0, size_y):
+    start_x = size_x/2 * -spacing
+    start_y = size_y/2 * spacing
+    for i in range(0, size_x):
         turtle.setpos(start_x + spacing * i, start_y)
         dot_down(size_y, turtle, size, spacing)
 
@@ -40,6 +40,6 @@ def rand_color():
     return r.random(), r.random(), r.random()
 
 
-create_art(10, 20, 10, 15)
+create_art(5, 10, 10, 15)
 
 
