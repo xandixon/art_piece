@@ -1,6 +1,5 @@
 import turtle as t
 import random as r
-import colorgram as cg
 
 colors_f = []
 
@@ -13,10 +12,6 @@ def create_art(size_x, size_y, size, spacing):
     turtle.speed(0)
     turtle.pensize(size)
     turtle.setheading(270)
-
-    # colors = cg.colorgram.extract('Resources/Samus_Returns.jpg', size_y)
-    # for color in colors:
-    #     colors_f.append(color.rgb)
 
     start_x = size_x/2 * -spacing
     start_y = size_y/2 * spacing
