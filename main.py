@@ -40,6 +40,8 @@ def rand_color():
     return r.random(), r.random(), r.random()
 
 
-create_art(5, 10, 10, 15)
+input_x = input('X Dimension?')
+input_y = input('Y Dimension?')
+create_art(input_x, input_y, 10, 15)
 
 
