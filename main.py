@@ -36,7 +36,7 @@ def rand_color():
 
 
 input_x = int(input('X Dimension? (Max 25)\n'))
-input_y = int(input('Y Dimension (Max 25?\n'))
+input_y = int(input('Y Dimension (Max 25?)\n'))
 create_art(input_x, input_y, 10, 15)
 
 
